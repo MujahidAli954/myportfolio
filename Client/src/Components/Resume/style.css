@@ -1,0 +1,8 @@
+.line{
+    
+    height: 0.2rem;
+    background-color:wheat;
+    width:4rem;
+    display: inline-block;
+    border-radius:5px;
+}

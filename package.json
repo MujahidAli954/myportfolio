@@ -1,0 +1,17 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "send email",
+    "main": "index.js",
+    "scripts": {
+      "Server":"node backend/index.js",
+      "Client":"npm start --prefix Client",
+      "dev": "concurrently \"npm run Server\" \"npm run Client\"",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "react-scripts start"
+    },
+    "author": "Mujahid Ali",
+    "license": "ISC",
+    "dependencies": {
+    }
+  }
